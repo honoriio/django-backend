@@ -1,0 +1,28 @@
+- Home page
+    - Fazer Login e Criar conta  # Envolve usuário e autenticaçãi
+    
+
+- usuário (Componentes)
+    - Nome usuário
+    - Email  usuário
+    - Username (Nome do perfil)
+    - Senha de acesso 
+    - Filmes ja vistos
+    - Editar perfil
+
+
+- Filmes/ Seríes
+    - Thumb 
+    - Ttitulo 
+    -  Descrição
+    - Categoria
+    -  Episodios
+    - Quantidade de Views
+    - Data de criação
+
+
+- Midias 
+    - Videos -> Ttitulo
+    - Imagens 
+
+- Barra de Pesquisa
