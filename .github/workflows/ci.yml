@@ -2,7 +2,7 @@ name: CI - Django Backend
 
 on:
   push:
-    branches-ignore:
+    branches:
       - main
   pull_request:
     branches:
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.14"
+          python-version: "3.11"
           cache: "pip"
 
       - name: Instalar dependências
@@ -38,5 +38,4 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Rodar testes
-        run: pytest -v 
-        
+        run: pytest -v
